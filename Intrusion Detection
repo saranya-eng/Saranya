@@ -83,6 +83,7 @@ data$result = as.factor(data$result)
 summary(data)
 x <- data[,1:41]
 y <- data[,42]
+# Features extraction done on Weka tool
 data1<-data[,c("srv_rerror_rate",   "rerror_rate", "flag","dst_host_rerror_rate" ,  
                "logged_in" ,"dst_bytes","src_bytes",       
                "dst_host_srv_count", "dst_host_same_src_port_rate","dst_host_diff_srv_rate" ,   
